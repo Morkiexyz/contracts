@@ -1,6 +1,6 @@
 # Morkie Platform Contracts
 
-Morkie is a web3 application leveraging Thirdweb integration to facilitate seamless blockchain-based interactions through smart contracts. Our platform is meticulously designed with a focus on performance and user experience. As proud participants in the Thirdweb Startup Program, we build on the robust infrastructure provided by Thirdweb, utilizing their suite of advanced smart contracts.
+Morkie is a web3 application leveraging Thirdweb integration to facilitate seamless blockchain-based interactions through smart contracts. Our platform is meticulously designed with a focus on performance and user experience. As proud participants in the Thirdweb Startup Program, we build on the robust infrastructure provided by Thirdweb, utilizing their suite of advanced pre-built smart contracts.
 
 ## Smart Contracts
 
