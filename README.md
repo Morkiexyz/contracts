@@ -1,21 +1,27 @@
-# Morkie: A Beacon for NFT Enthusiasts
+# Morkie Platform Contracts
 
-Morkie is more than just an NFT platform; it's a culmination of our passion and dedication to revolutionizing the NFT experience. Our vision from the start has been clear: to make NFTs simple, accessible, and rewarding for everyone, regardless of their expertise level. With Morkie, we're not only challenging the norms of digital asset ownership but also redefining it, ensuring that every interaction with NFTs is engaging, rewarding, and fun.
+Morkie is a web3 application leveraging Thirdweb integration to facilitate seamless blockchain-based interactions through smart contracts. Our platform is meticulously designed with a focus on performance and user experience. As proud participants in the Thirdweb Startup Program, we build on the robust infrastructure provided by Thirdweb, utilizing their suite of advanced smart contracts.
 
-Our platform stands out by empowering users to showcase their digital assets in a community of like-minded enthusiasts. We believe that NFTs should be more than just static tokens of ownership. Instead, they should offer real value and enjoyment, turning every interaction into an opportunity for engagement and reward.
+## Smart Contracts
 
-Going beyond mere ownership, we're making NFTs easier for everyone, breaking down barriers to entry, and injecting fun and excitement into the world of digital collectibles. Our platform is designed to be intuitive, removing the complexity often associated with NFTs and allowing users to focus on the joy of collecting, sharing, and engaging with digital art and assets.
+Our project utilizes the following smart contracts from Thirdweb:
 
-Moreover, we are committed to supporting creators from across the globe, making the process of NFT creation not only accessible but also incentivized. By providing tools and resources to artists and digital creators, Morkie fosters an environment where creativity is rewarded, and the global NFT community can thrive. This initiative aims to encourage a diverse range of voices and visions within the NFT space, further enriching the ecosystem with unique, valuable, and engaging content. At Morkie, we're not just building a platform; we're nurturing a vibrant, creative community where everyone has the opportunity to contribute, share, and benefit from the NFT revolution.
- 
- > Showcase Your Creativity to the World
+- **OpenEditionERC721**: [Version 5.0.1](https://thirdweb.com/thirdweb.eth/OpenEditionERC721/5.0.1) - This contract allows for the creation and management of open edition NFTs, enabling users to mint and trade digital assets securely.
 
-### Key Features
+- **StakeERC20**: [Version 5.0.1](https://thirdweb.com/thirdweb.eth/TokenStake) - This contract allows users to stake their ERC-20 tokens and receive ERC-20 tokens as staking rewards (different from the staked tokens).
 
-- **Easy NFT**: In our pursuit to make NFTs accessible to all, we offer Zero-Knowledge Minting..
-- **Web3 Score**: Utilize our complimentary tool to assess the standing of your wallet within the ecosystem.
-- **Staking**: Engage in Staking to earn $Mork tokens as a reward.
-- **Creator Support**: We support creators from all over the world, empowering art on a global stage.
-- **Multichain Support**: Experience our user-friendly interface, supporting 10+ blockchain networks.
+- **StakeERC721**: [Version 5.0.1](https://thirdweb.com/thirdweb.eth/NFTStake) - This contract allows users to stake their ERC-721 NFTs and receive ERC-20 tokens as staking rewards.
 
-Join us on this remarkable journey, where art, technology, and innovation converge, making Morkie a rewarding experience for NFT enthusiasts.
+## Example: How We Call the Smart Contract
+
+```jsx
+<Web3Button
+  contractAddress="0x5A3B5f1B364eF597e3E6E994810ae5f3918C7D65"
+  action={async (contract) => {
+    await contract.erc721.claim(value);
+  }}
+  onSuccess={(result) => alert("Success!")}
+>
+  Mint
+</Web3Button>
+
