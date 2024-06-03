@@ -12,6 +12,11 @@ Our project utilizes the following smart contracts from Thirdweb:
 
 - **StakeERC721**: [Version 5.0.1](https://thirdweb.com/thirdweb.eth/NFTStake) - This contract allows users to stake their ERC-721 NFTs and receive ERC-20 tokens as staking rewards.
 
+- **Token**: [Version 5.0.1](https://thirdweb.com/thirdweb.eth/TokenERC20) - The Token contract is suited for creating a digital currency and is compliant with the ERC20 standard.
+
+- **Managed Account Factory**: [Version 1.57.27](https://thirdweb.com/thirdweb.eth/ManagedAccountFactory) - This contract allows to deploy upgradeable smart wallets for users, with the ability to push updates to all users
+
+
 ## Example: How We Call the Smart Contract
 
 ```jsx
