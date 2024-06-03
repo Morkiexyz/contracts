@@ -23,21 +23,6 @@ All the contracts are available in the [Thirdweb GitHub repository](https://gith
 
 To use the Morkie platform, you need to interact with the smart contracts deployed on the blockchain. The following example demonstrates how to call a smart contract using the `Web3Button` component.
 
-## Contract Audits
-
-- [Audit 1](audit-reports/audit-1.pdf)
-- [Audit 2](audit-reports/audit-2.pdf)
-- [Audit 3](audit-reports/audit-3.pdf)
-- [Audit 4](audit-reports/audit-4.pdf)
-- [Audit 5](audit-reports/audit-5.pdf)
-- [Audit 6](audit-reports/audit-6.pdf)
-- [Audit 7](audit-reports/audit-7.pdf)
-- [Audit 8](audit-reports/audit-8.pdf)
-- [Audit 9](audit-reports/audit-9.pdf)
-- [Audit 10](audit-reports/audit-10.pdf)
-- [Audit 11](audit-reports/audit-11.pdf)
-- [Audit 12](audit-reports/audit-12.pdf)
-
 ## Example: How We Call the Smart Contract
 
 ```jsx
