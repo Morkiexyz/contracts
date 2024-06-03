@@ -50,6 +50,7 @@ To use the Morkie platform, you need to interact with the smart contracts deploy
 >
   Mint
 </Web3Button> 
+```
 
 ## License
 
